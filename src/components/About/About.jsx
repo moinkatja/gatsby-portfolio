@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from "./About.module.css";
+import CV_de from "../../files/CV_de.pdf";
 
 function About() {
     return (
@@ -10,7 +11,7 @@ function About() {
             <br/><br/>
             I'm mostly interested in React and I really like the idea of this library. The whole component-based approach seems fascinating to me. I also build modern websites using HTML, CSS and JavaScript. 
             The most important aspects in my opinion are user experience, accessibility and performance.
-            Feel free to have a look at my <a href={"cv_de.pdf"} download>CV</a>.
+            Feel free to have a look at my <a href={CV_de} download>CV</a>.
             <br/><br/>
             I'm also interested in business analytics and some modern trends like gamification.
             <br/><br/>

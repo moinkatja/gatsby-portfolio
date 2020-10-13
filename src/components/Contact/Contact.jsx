@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from "./Contact.module.css";
 import { FaXing, FaGithub, FaEnvelope, FaFilePdf } from 'react-icons/fa';
+import CV_de from "../../files/CV_de.pdf";
 
 function Contact() {
     
@@ -12,7 +13,7 @@ function Contact() {
                 <a href="https://www.xing.com/profile/Ekaterina_Blau/cv" target="_blank" rel="noreferrer" aria-label="Xing"><FaXing size="50" /></a>
                 <a href="https://github.com/moinkatja" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub size="50" /></a>
                 <a href="mailto:katja.blau@gmx.de" aria-label="E-Mail"><FaEnvelope size="50" /></a>
-                <a href={"cv_de.pdf"}  aria-label="CV" download><FaFilePdf size="50"/></a></p>
+                <a href={CV_de}  aria-label="CV" download><FaFilePdf size="50"/></a></p>
         </section>
     )
 }
